@@ -1,0 +1,38 @@
+/* DescriptionAndGettingStarted.module.css */
+
+.container {
+  /* width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin-top: 230px; */
+}
+
+.vstack {
+  text-align: center;
+}
+
+.heading {
+  font-weight: 800;
+}
+
+.text {
+  font-weight: 700;
+  line-height: 2;
+}
+
+.input {
+  border: 1px solid grey;
+  focus-border-color: white;
+  variant: filled;
+}
+
+.button {
+  border-radius: 5px;
+  width: 350px;
+  height: 60px;
+  font-size: 25px;
+  color: white;
+  background-color: red;
+  variant: solid;
+}

@@ -1,0 +1,92 @@
+.navContainer {
+}
+
+.navElementContainer {
+}
+
+.navLogoContainer {
+}
+
+.navButtonContainer {
+}
+
+.navButton {
+  /* button.module.css */
+
+  min-width: 80px !important;
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+  height: 35px !important;
+  color: white !important;
+}
+
+/* .navContainer {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.logoImage {
+  width: 150px;
+}
+
+.navButtonContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 15px;
+} 
+
+
+
+// import { Button, Image, Select, useMediaQuery } from "@chakra-ui/react";
+// import logo from "../assets/ne355f3c4-netflix-logo-file-netflix-2015-logo-svg-wikimedia-commons.png";
+// import styles from "../Home/Home_modules_css/homeNavBar.module.css";
+// import { useEffect, useState } from "react";
+
+// function getShorthand(languages: any) {
+//   return languages.map((lang) => "EN");
+// }
+
+// const LANGUAGES = ["English", "Arabic"];
+
+// const HomeNavBar = () => {
+//   const [isLarger960] = useMediaQuery("(min-width: 960px)");
+//   const [langs, setLangs] = useState(LANGUAGES);
+
+//   useEffect(() => {
+//     if (isLarger960) {
+//       setLangs(LANGUAGES);
+//     } else {
+//       const newLangs = getShorthand(LANGUAGES);
+//       setLangs(newLangs);
+//     }
+//   }, [isLarger960]);
+
+//   return (
+//     <div className={styles.navContainer}>
+//       <Image className={styles.logoImage} src={logo} alt="Netflix Logo" />
+//       <div className={styles.navButtonContainer}>
+//         <Select variant="outline">
+//           {langs.map((lang) => (
+//             <option value={lang}>{lang}</option>
+//           ))}
+//         </Select>
+
+//         <Button color="white" colorScheme="red" variant="solid">
+//           Sign in
+//         </Button>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default HomeNavBar; */
